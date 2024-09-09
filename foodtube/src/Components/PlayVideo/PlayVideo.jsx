@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react'
 import './PlayVideo.css'
 import like from '../../assets/like.png'
@@ -39,10 +40,12 @@ const PlayVideo = () => {
     useEffect(() => {
         fetchVideoData();
         window.scrollTo(0, 0);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [videoId])
 
     useEffect(() => {
         fetchOtherData();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [apiData])
 
 
