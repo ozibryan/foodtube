@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import './Video.css'
-import PlayVideo from "../../Components/Playvideo/PlayVideo.jsx"
+import PlayVideo from '../../Components/Playvideo/PlayVideo.jsx'
 import Recommended from '../../Components/Recommended/Recommended.jsx'
 import { useParams } from "react-router-dom";
 
